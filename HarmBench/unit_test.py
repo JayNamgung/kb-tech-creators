@@ -5,7 +5,6 @@ import torch
 def setup_harmbench_classifier():
     """HarmBench 분류기 설정"""
 
-    # 7B 모델 사용 (13B 대신)
     model_name = "cais/HarmBench-Mistral-7b-val-cls"
 
     print(f"📥 {model_name} 모델 로딩 중...")
